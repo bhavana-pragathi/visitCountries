@@ -27,7 +27,7 @@ export const VisitDiv = styled.div`
 export const VisitedDiv = styled.div`
   height: 60vh;
 `
-export const NoCountriesHeading = styled.h1`
+export const NoCountriesPara = styled.p`
   color: #ffffff;
   font-size: 20px;
   text-align: center;

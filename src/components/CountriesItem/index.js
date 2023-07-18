@@ -2,9 +2,9 @@ import {Li, Country, VisitButton, Visited} from './styledComponents'
 
 const CountriesItem = props => {
   const {countriesDetails, onVisit} = props
-  const {name, isVisited} = countriesDetails
+  const {id, name, isVisited} = countriesDetails
   const onClickButton = () => {
-    onVisit(countriesDetails)
+    onVisit(id)
   }
   return (
     <Li>

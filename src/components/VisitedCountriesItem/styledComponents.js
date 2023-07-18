@@ -18,9 +18,12 @@ export const NameRemove = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1f1f2f;
 `
 export const Name = styled.p`
   color: #ffffff;
+  font-size: 12px;
+  margin-left: 10px;
 `
 export const RemoveButton = styled.button`
   color: #ffffff;
@@ -31,4 +34,5 @@ export const RemoveButton = styled.button`
   width: 60px;
   background-color: transparent;
   border-radius: 3px;
+  margin-right: 10px;
 `
